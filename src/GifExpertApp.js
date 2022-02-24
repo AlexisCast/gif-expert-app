@@ -7,7 +7,7 @@ const GifExpertApp = () => {
 
 	return (
 		<>
-			<h2 className="animate__animated animate__fadeIn">GifExpertApp</h2>
+			<h2 className="title animate__animated animate__fadeIn">GifExpertApp</h2>
 
 			<AddCategory setCategories={setCategories} />
 
@@ -18,6 +18,11 @@ const GifExpertApp = () => {
 					<GifGrid key={category} category={category} />
 				))}
 			</ol>
+			<footer>
+				<p className="title">
+					Alexis Castellanos
+				</p>
+			</footer>
 		</>
 	);
 };
