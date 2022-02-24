@@ -7,7 +7,7 @@ const GifExpertApp = () => {
 
 	return (
 		<>
-			<h2>GifExpertApp</h2>
+			<h2 className="animate__animated animate__fadeIn">GifExpertApp</h2>
 
 			<AddCategory setCategories={setCategories} />
 
